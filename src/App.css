@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.booking-system {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.desk {
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+.booked {
+  background-color: #ddd;
+  color: black;
+
+}
